@@ -20,9 +20,9 @@ under the License.
 // ====CHAINCODE EXECUTION SAMPLES (CLI) ==================
 
 // ==== Invoke multimedias ====
-// peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["initmultimedia","multimedia1","blue","35","tom"]}'
-// peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["initmultimedia","multimedia2","red","50","tom"]}'
-// peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["initmultimedia","multimedia3","blue","70","tom"]}'
+// peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["initmultimedia","multimedia1","xxx","35","tom"]}'
+// peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["initmultimedia","multimedia2","xxx","50","tom"]}'
+// peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["initmultimedia","multimedia3","xx","70","tom"]}'
 // peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["transfermultimedia","multimedia2","jerry"]}'
 // peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["transfermultimediasBasedOnlink","blue","jerry"]}'
 // peer chaincode invoke -C myc1 -n multimedias -c '{"Args":["delete","multimedia1"]}'
